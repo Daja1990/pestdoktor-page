@@ -7,8 +7,8 @@ import './LatestPost.css';
 import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 
 const client = Contentful.createClient({
-  space: 'lqqnijo1yqgj',
-  accessToken: '7sNbw42UHCnP7cEqKfXDfus2CLruZaIC2Q6UbRCfTWI'
+  space: 'space key',
+  accessToken: 'API key'
   });
   
   const options = {
