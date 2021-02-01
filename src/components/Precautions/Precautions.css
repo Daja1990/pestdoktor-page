@@ -1,0 +1,175 @@
+.pre-headtxt{
+color: white;
+font-size: 2vw;
+margin-bottom: 40px;
+}
+
+.pre-wrapper{
+text-align: left;
+display: grid;
+grid-template-columns: 80% 20%;
+background-color: #404040;
+width: 70vw;
+margin-left: 15%;
+padding-top: 3%;
+padding-bottom: 3%;
+border-width: 0 5px 5px 5px; /* top right bottom left */
+border-style: solid;
+border-color: #444;
+}
+
+.pre-wrapper p{
+padding-left: 50px;
+color: white;
+font-size: 1vw;
+}
+
+.pre-wrapper h3{
+color: white;
+font-size: 1.5vw;
+padding-left: 50px;
+padding-bottom: 20px;
+}
+
+.pre-wrapperleft{
+text-align: right;
+display: grid;
+grid-template-columns: 20% 80%;
+background-color: #404040;
+width: 70vw;
+margin-left: 15%;
+padding-top: 3%;
+padding-bottom: 3%;
+border-width: 0 5px 5px 5px; /* top right bottom left */
+border-style: solid;
+border-color: #444;
+}
+
+.pre-wrapperleft p{
+padding-right: 50px;
+color: white;
+font-size: 1vw;
+}
+
+.pre-wrapperleft h3{
+color: white;
+font-size: 1.5vw;
+padding-right: 50px;
+padding-bottom: 20px;
+}
+
+/* Working SVG scaling Begin Left  */
+
+.handsanitizeicon svg{
+left: 18.8vw;
+height: 20vh;
+width: 13.5vw;
+}
+
+.handsanitizeicon{
+padding-bottom: 20vh;
+}
+
+.hexIconsleft{
+width: 4.5vw;
+position: absolute;
+padding-top: 12px;
+z-index: 20;
+}
+
+.washiconleft{
+left: 17.5vw;
+height: 15vh;
+width: 13.5vw;
+}
+
+/* Working SVG scaling End */
+
+/* Working SVG scaling Begin Right  */
+
+.hexIconspre{
+width: 4.5vw;
+position: absolute;
+padding-top: 10px;
+z-index: 20;
+}
+
+.alignicon{
+padding-bottom: 20vh;
+}
+
+.alignicon svg{
+left: 66.8vw;
+height: 20vh;
+width: 13.5vw;
+}
+
+.hexIconsright{
+width: 4.5vw;
+position: absolute;
+padding-top: 12px;
+z-index: 20;
+}
+
+/* Working SVG scaling EndRight  */
+
+.washicon{
+/* left: 67.5vw; */
+left: 69.4%;
+height: 17vh;
+width: 14vw;
+}
+
+.handshake{
+left: 66.8vw;
+height: 15vh;
+width: 16vw;
+}
+
+/* Hexagons Left */
+
+.hexagonleft {
+overflow: hidden;
+visibility: hidden;
+-webkit-transform: rotate(120deg);
+-moz-transform: rotate(120deg);
+-o-transform: rotate(120deg);
+transform: rotate(120deg);
+display: inline-block;
+}
+
+.hexagon-inleft1 {
+overflow: hidden;
+width: 100%;
+height: 100%;
+-webkit-transform: rotate(-60deg);
+-moz-transform: rotate(-60deg);
+-o-transform: rotate(-60deg);
+transform: rotate(-60deg);
+}
+
+.hexagon-inleft2 {
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-position: 50%;
+background-color: #F68300;
+visibility: visible;
+-webkit-transform: rotate(-60deg);
+-moz-transform: rotate(-60deg);
+-o-transform: rotate(-60deg);
+transform: rotate(-60deg);
+}
+
+.hexagonleft1 {
+width: 18vw;
+height: 18vh;
+margin-left: 0;
+margin-right: -5vw;
+}
+
+.coughicon{
+left: 17.8vw;
+height: 15vh;
+width: 13.5vw;
+}

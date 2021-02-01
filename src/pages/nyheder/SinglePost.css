@@ -1,0 +1,29 @@
+.returnbtn{
+width: 150px;
+height: 40px;
+border-radius: 8px;
+border: 2px solid #F68300;
+background: none;
+color: #F68300;
+margin-bottom: 30px;
+}
+
+.returnbtn:active{
+outline: none;
+}
+
+.returnbtn:hover{
+background-color: #F68300;
+color: white;
+transition: all 0.2s;
+}
+
+.wrapnews{
+/* color: white; */
+display: grid;
+grid-template-columns: 10% 90%;
+/* grid-template-columns: 1fr 1fr; */
+/* width: 300px; */
+/* margin: 0 auto; */
+
+}

@@ -1,0 +1,35 @@
+.center-div{
+text-align: center;
+}
+
+.center-div button{
+width: 150px;
+height: 50px;
+background-color: orange;
+}
+
+.submenu-header{
+color: #F68300;
+font-size: 2em;
+}
+
+.submenu-hr{
+width: 55%;
+margin: 0 auto;
+margin-top: 2vh;
+margin-bottom: 2vh;
+text-align: center;
+border: 0.5px solid #F68300;
+}
+
+.menu-p{
+display: inline;
+color: #F68300;
+margin: 25px;
+cursor: pointer;
+font-size: 1.2em;
+}
+
+.menu-p:hover{
+color: black;
+}

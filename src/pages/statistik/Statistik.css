@@ -1,0 +1,23 @@
+.wrapstat{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.statheader{
+font-size: 3em;
+color: white;
+text-align: center;
+padding-bottom: 50px;
+}
+
+.breadtxt{
+color: white;
+text-align: center;
+padding-bottom: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapstat{
+        grid-template-columns: 1fr;
+        }
+}

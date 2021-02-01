@@ -1,0 +1,94 @@
+.burger-nav {
+  display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+  .container{
+    display: none;
+  }
+  .burger-nav {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+  .burgermenus{
+    overflow: hidden;
+  }
+  .burgermenus p{
+    color: white;
+    font-size: 4vh;
+    /* padding: 20px; */
+    padding: 2vw;
+  }
+  .burgermenus p:hover{
+    color: #F68300;
+  }
+  .burgermenus a{
+    text-decoration: none;
+  }
+  #page-wrap {
+    text-align: center;
+    overflow: auto;
+    top: 45%;
+    position: relative;
+  }
+  .bm-item {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+  .bm-item:hover {
+    color: white;
+  }
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+  }
+  .bm-burger-bars {
+    background: #F68300;
+  }
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    z-index: 2000;
+  }
+  .bm-cross {
+    background: #fff;
+  }
+  .bm-menu {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  .bm-item-list {
+    color: #b8b7ad;
+  }
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .burger-nav {
+    color: white;
+    font-weight: 300;
+  }
+  .burger-nav li {
+    text-align: center;
+    margin: 2%;
+    font-size: 1.2vw;
+  }
+  .sidebar-move {
+    margin-top: 3vw;
+  }
+  .navpush {
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,131 @@
+.txtcenter{
+text-align: center;
+padding: 20px;
+padding-bottom: 20px;
+}
+
+.infotxt{
+color: white;
+}
+
+.pd-main{
+text-align: center;
+position: relative;
+margin-bottom: 50px;
+}
+
+.dot {
+height: 2vw;
+width: 2vw;
+border-radius: 50%;
+display: inline-block;
+position: absolute;
+}
+
+.red{
+color: red;
+}
+
+.dot-cough{
+top: 13%;
+left: 42.8%;
+background-color: #F68300;
+}
+
+    .dot-badcough{
+    top: 13%;
+    left: 40.8%;
+    background-color: red;
+    z-index: 1;
+    }
+    
+    .dot-heart{
+    top: 24.5%;
+    left: 41.8%;
+    background-color: red;
+    z-index: 1;
+    }
+    
+    .dot-lungorange{
+    top: 26%;
+    left: 43.8%;
+    background-color: #F68300;
+    z-index: 1;
+    }
+    
+    .dot-lungred{
+    top: 26%;
+    left: 39.8%;
+    background-color: red;
+    z-index: 1;
+    }
+    
+    .dot-headfever{
+    top: 4%;
+    left: 40.7%;
+    background-color: #F68300;
+    z-index: 1;
+    }
+    
+    .dot-headache{
+    top: 4%;
+    left: 42.7%;
+    background-color: #F68300;
+    z-index: 1;
+    }
+    
+    .dot-kidney{
+    top: 38%;
+    left: 43.4%;
+    background-color: red;
+    z-index: 1;
+    }
+    
+    .dot-stomach{
+    top: 41%;
+    left: 41.4%;
+    background-color: #F68300;
+    z-index: 1;
+    }
+    
+    .dot-muscle{
+    top: 34%;
+    left: 41.4%;
+    background-color: #F68300;
+    z-index: 1;
+    }
+    
+    .pd-first{
+    width: 40vw;
+    margin-right: 40vw;
+    }
+    
+    .pd-style{
+    width: 40vw;
+    z-index: 200;
+    margin-right: 40vw;
+    }
+    
+    .centertxt{
+    text-align: center;
+    color: white;
+    /* position: absolute;
+    top: 50%;
+    right: 10%; */
+    }
+    
+    .textwrapper{
+    width: 30vw;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    }
+
+.pointerheader{
+color :#F68300;
+font-size: 2em;
+padding-bottom: 20px;
+}

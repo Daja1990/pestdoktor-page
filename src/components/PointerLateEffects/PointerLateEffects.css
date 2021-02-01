@@ -1,0 +1,123 @@
+.txtcenter{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 100px;
+    }
+    
+    .infotxt{
+    color: white;
+    }
+    
+    .pd-main{
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    }
+    
+    .dot {
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    }
+    
+    .pd-first{
+    width: 40vw;
+    margin-right: 40vw;
+    }
+    
+    .pd-style{
+    width: 40vw;
+    z-index: 200;
+    margin-right: 40vw;
+    }
+    
+    .centertxt{
+    text-align: center;
+    color: white;
+    /* position: absolute;
+    top: 50%;
+    right: 10%; */
+    }
+    
+    .textwrap{
+    width: 30vw;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    }
+
+    /* New  */
+
+.dot-mildbrain{
+top: 2%;
+left: 40.7%;
+background-color: #F68300;
+z-index: 1;
+}
+
+.dot-severebrain{
+top: 2%;
+left: 42.7%;
+background-color: red;
+z-index: 1;
+}
+
+.dot-nose{
+top: 7%;
+left: 41.7%;
+background-color: #F68300;
+}
+
+.dot-coughing{
+top: 12.5%;
+left: 41.7%;
+background-color: #F68300;
+z-index: 1;
+}
+
+.dot-chest-orange{
+top: 26%;
+left: 39.8%;
+background-color: #F68300;
+z-index: 1;
+}
+
+.dot-heart-red{
+top: 24.5%;
+left: 41.8%;
+background-color: red;
+z-index: 1;
+}
+
+.dot-chest-red{
+top: 26%;
+left: 43.8%;
+background-color: red;
+z-index: 1;
+}
+
+.dot-bloodclot{
+top: 68%;
+left: 43.3%;
+background-color: red;
+z-index: 1;
+}
+
+.dot-muscles{
+top: 34%;
+left: 45.8%;
+background-color: #F68300;
+z-index: 1;
+}
+
+.dot-joint{
+top: 45%;
+left: 46.2%;
+background-color: #F68300;
+z-index: 1;
+}

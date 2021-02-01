@@ -1,0 +1,22 @@
+.latestposts{
+background-color: #333;
+width: 220px;
+padding: 50px;
+margin: 20px;
+margin-top: 200px;
+border-radius: 8px;
+}
+
+.latestposts p:hover{
+color: white;
+}
+
+.latestposts p{
+padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .latestposts{
+    display: none;
+    }
+}

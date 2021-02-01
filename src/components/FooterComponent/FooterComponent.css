@@ -1,0 +1,41 @@
+.footer-main{
+width: 100vw;
+background-color: #111;
+padding-bottom: 50px;
+
+}
+
+.boxes{
+display: grid;
+grid-gap: 20px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+text-align: center;
+color: white;
+font-size: 1vw;
+padding-top: 8vh;
+}
+
+.boxes div{
+width: 20vw;
+}
+
+.fblogo{
+width: 2vw;
+height: 2vw;
+display: inline;
+margin-right: 10px;
+vertical-align:middle;
+}
+
+.iglogo{
+width: 2vw;
+height: 2vw;
+display: inline;
+margin-right: 10px;
+background-color: white;
+vertical-align:middle;
+}
+
+.logotxt{
+display: inline;
+}

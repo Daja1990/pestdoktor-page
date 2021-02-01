@@ -1,0 +1,35 @@
+.linegraph{
+width: 600px;
+height: 300px;
+margin: 50px auto;
+background-color: #333;
+}
+
+.graph-header{
+color: white;
+font-size: 1.5em;
+padding-bottom: 10px;
+}
+
+.graph-p{
+color: white;
+}
+
+.orangetxt{
+color: #F68300;
+}
+
+.infobox{
+margin-top: 30px;
+padding: 20px;
+background-color: #333;
+border-radius: 8px;
+display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+    .linegraph{
+        width: 400px;
+        height: 200px;
+    }
+}

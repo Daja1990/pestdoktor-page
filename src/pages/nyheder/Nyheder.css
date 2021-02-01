@@ -1,0 +1,135 @@
+.contentful {
+text-align: center;
+/* width: 500px; */
+/* margin: 0 auto; */
+}
+
+.contentful-wrapper{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-right: 15vw;
+margin-left: 15vw;
+gap: 0% 3%;
+}
+
+.contentful-wrapper > div{
+background-color: #333;
+border-radius: 8px;
+}
+
+.newswrapper{
+padding-bottom: 30px;
+}
+
+.hover li{
+display: inline;
+padding: 20px;
+color: white;
+font-size: 1.5em;
+}
+
+.hover li:hover{
+color: #111;
+cursor: pointer;
+}
+
+.active{
+color: #F68300 !important;
+}
+
+.newsheader{
+color: white;
+text-align: center;
+margin-bottom: 100px;
+}
+
+/* Styling af indhold */
+
+.author{
+/* color: white; */
+display: grid;
+grid-template-columns: 30% 70%;
+/* grid-template-columns: 1fr 1fr; */
+width: 300px;
+margin: 0 auto;
+text-align: left;
+}
+
+.avatar{
+/* width: 3vw !important; */
+width: 50px !important;
+margin: 20px;
+display: inline-block;
+}
+
+.details{
+color: white;
+/* margin: auto; */
+padding-top: 10%;
+}
+
+.name{
+color: white;
+}
+
+.created{
+color: white;
+margin-bottom: 20px;
+}
+
+.entry{
+color: white;
+list-style-type: none;
+margin-bottom: 50px;
+}
+
+.entry img{
+width: 300px;
+margin: 20px;
+}
+
+.entry h1{
+color: white;
+padding-top: 30px;
+}
+
+.entry a{
+text-decoration: none;
+color: white;
+}
+
+.blog-orange{
+display: inline-block;
+margin-right: 3%;
+color: #F68300;
+}
+
+.blog-header{
+font-size: 2em;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.readmorebutton{
+width: 150px;
+height: 40px;
+border-radius: 8px;
+border: 2px solid #F68300;
+background: none;
+color: #F68300;
+margin-bottom: 30px;
+}
+
+.readmorebutton:active{
+outline: none;
+}
+
+.readmorebutton:hover{
+background-color: #F68300;
+color: white;
+transition: all 0.2s;
+}
+
+.imgshrink img{
+width: 200px;
+}
