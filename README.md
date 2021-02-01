@@ -1,3 +1,21 @@
+Hyggeprojekt bygget med React. Mangler finishing touches/tekstforfatning, småoprydning af gammel kode. 
+
+Teknologier:
+
+  - React.
+  - API data visualiseret via char.js grafer.
+  - Contentful Headless CMS til at lave blogposts.
+  - Egen grafik.
+  
+Hjemmeside: pestdoktor-build.netlify.app
+
+Uploaded som build, problemer med egen server pt. Derfor teknisk set ikke React, men builded som alm. JS.
+  
+  
+
+
+-------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
