@@ -1,4 +1,4 @@
-Hyggeprojekt bygget med React. Mangler finishing touches/tekstforfatning. 
+Hyggeprojekt bygget med React. Mangler finishing touches/tekstforfatning, småoprydning af gammel kode. 
 
 Teknologier:
 
